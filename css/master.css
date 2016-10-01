@@ -1,0 +1,59 @@
+/*main stuff*/
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+/*navbar stuff*/
+.navbar {
+  background-color: transparent;
+  color: black;
+
+}
+.navbar a {
+  color: white;
+  background: none;
+}
+.navbar a:hover {
+  border-radius: 10px;
+  background: none;
+}
+/*TODO: Convert this shit to buttons and style them */
+/*end of navbar stuff*/
+
+/*first jumbotron*/
+#mor1 {
+  height: 100vh;
+  /*Holy fuck i just found a way to center shit*/
+  display: flex;
+  align-items: center;
+  /*end of fixing shit*/
+  color: white;
+  background-image: url('../rsc/mor1.jpg');
+  /*create parallax*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*1st page info*/
+#headermoraine1 {
+  text-align: center;
+  font-size: 10em;
+}
+#morimg1 {
+ padding-bottom: 20px;
+ margin-bottom: 20px;
+}
+
+/*jumbo2*/
+#mor2 {
+  color: white;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('http://www.zastavki.com/pictures/originals/2015/World___Canada_Glacial_Moraine_Lake_in_Canada_096511_.jpg');
+}
